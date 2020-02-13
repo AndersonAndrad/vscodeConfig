@@ -1,0 +1,66 @@
+{
+    "workbench.colorTheme": "City Lights",
+    "workbench.iconTheme": "material-icon-theme",
+
+    // Font
+    "editor.fontFamily": "Fira code",
+    "editor.fontSize": 9.5,
+    "editor.lineHeight": 24,
+
+    // others
+    "files.autoSave" : "afterDelay",
+    
+    // my config
+    "editor.formatOnSave": true,
+    "editor.rulers": [80, 120],
+    "editor.tabSize": 2,
+    "editor.renderLineHighlight": "gutter",
+    "editor.parameterHints.enabled": false,
+
+    // eslint config
+    "eslint.autoFixOnSave": true,
+    "eslint.validate":[
+        {
+            "language": "javascript",
+            "autoFix": true
+        },
+        {
+            "language": "javascriptreact",
+            "autoFix": true
+        },
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        },
+    ],
+
+    // font terminal
+    "terminal.integrated.fontSize": 12,
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "breadcrumbs.enabled": true,
+    "prettier.eslintIntegration": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "sync.autoUpload": true,
+    "sync.autoDownload": true,
+    "sync.quietSync": true,
+    "sync.gist": "2af0bc89f5be5460a0e299d7ab9f4d36d95128bc",
+}
